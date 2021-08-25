@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 
-# Centralizar o arquivo de controle de estado do terraform
+# Centralizar o arquivo de controle de estado do terraform.
 terraform {
   backend "s3" {
     bucket = "terraform-state-igti-ney"
